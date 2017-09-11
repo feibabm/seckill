@@ -1,0 +1,19 @@
+<table class="table">
+    <caption>抢购活动列表</caption>
+    <thead>
+    <tr>
+        <th>商品名称</th>
+        <th>库存数量</th>
+        <th>秒杀开始时间</th>
+        <th>秒杀结束时间</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="seckill in secKillList">
+        <td>{{seckill.name}}</td>
+        <td>{{seckill.number}}</td>
+        <td>{{seckill.startTime | date: 'yyyy-MM-dd HH:mm:ss'}}</td>
+        <td>{{seckill.endTime | date: 'yyyy-MM-dd HH:mm:ss'}}</td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+
+spring:
+  redis:
+    database: 0
+    pool:
+      max-active: 8
+      max-wait: -1
+      max-idle: 8
+      min-idle: 0
+    timeout: 1000
+    #single redis nodes config
+#    host: 10.225.27.237
+#    port: 7777
+#    password: admin
+    host: 192.168.99.100
+    port: 6379
+  datasource:
+    url: jdbc:mysql://localhost:3306/seckill
+    username: seckill
+    password: seckill
+    driver-class-name: com.mysql.jdbc.Driver
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+#  rabbitmq:
+#    host: 10.225.27.90
+#    port: 5672
+#    username: test
+#    password: test
+mybatis:
+  type-aliases-package: com.fndsoft.mybatis.entity
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    jdbc-type-for-null: NULL
+
+## tk.mybatis.mapper
+mapper:
+  mappers: com.fndsoft.mybatis.MyMapper
+  not-empty: false
+  identity: ORACLE
+  #oracle set true for user squence
+  before: true
+  ORDER: BEFORE
+pagehelper:
+  helperDialect: oracle
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  rowBoundsWithCount: true
+server:
+  tomcat:
+    uri-encoding: UTF-8

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fndsoft..mybatis.dao.SeckillMapper">
+  <resultMap id="BaseResultMap" type="com.fndsoft.mybatis.entity.Seckill">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="seckill_id" jdbcType="BIGINT" property="seckillId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+
+  <update id="updateNumber">
+    UPDATE seckill SET number = number - 1 WHERE seckill_id = #{seckillId};
+  </update>
+</mapper>
