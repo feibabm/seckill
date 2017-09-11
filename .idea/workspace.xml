@@ -72,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackendUpdateNumberTask.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BackendUpdateNumberTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fndsoft/pool/BackendUpdateNumberTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="271">
+              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seckill.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -525,6 +535,11 @@
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\secKill\sql" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.SecKillApplication">
     <configuration default="false" name="SecKillApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -997,12 +1012,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505101394780</updated>
       <workItem from="1505101396712" duration="71000" />
-      <workItem from="1505101512045" duration="3050000" />
+      <workItem from="1505101512045" duration="5362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3121000" />
+    <option name="totallyTimeSpent" value="5433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1124,8 +1139,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fndsoft/pool/BackendUpdateNumberTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="271">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
