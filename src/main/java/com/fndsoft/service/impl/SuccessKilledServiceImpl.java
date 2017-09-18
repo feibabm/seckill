@@ -23,7 +23,7 @@ public class SuccessKilledServiceImpl implements SuccessKilledService{
     @Override
     public void saveSuccessKillBackend(String userPhone, long productId) {
         //更新用户订单状态
-        successKilledMapper.updateByPrimaryKey(new SuccessKilled(productId, Long.valueOf(userPhone), Byte.valueOf(0 + "")));
+        successKilledMapper.updateByPrimaryKeySelective(new SuccessKilled(productId, Long.valueOf(userPhone), Byte.valueOf(0 + "")));
 
         //更新产品订单库存
         seckillMapper.updateNumber(productId);

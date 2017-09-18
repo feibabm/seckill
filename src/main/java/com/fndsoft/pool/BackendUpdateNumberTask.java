@@ -19,7 +19,11 @@ public class BackendUpdateNumberTask implements Runnable{
         while (true){
             if(!ExecutorPool.queue.isEmpty()){
                 QueueEntity poll = ExecutorPool.queue.poll();
-                successKilledService.saveSuccessKillBackend(poll.getUserPhone(), poll.getProductId());
+                try{
+                    successKilledService.saveSuccessKillBackend(poll.getUserPhone(), poll.getProductId());
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         }
 

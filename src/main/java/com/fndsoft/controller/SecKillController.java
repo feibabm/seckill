@@ -22,11 +22,11 @@ public class SecKillController {
     @Autowired
     private SecKillService secKillService;
 
-//    @RequestMapping("/product/list")
-//    public Object getAllSecKill(){
-//        List<Seckill> allSecKill = secKillService.getAllSecKill();
-//        return CommonResponse.buildRespose4Success(allSecKill,"获得秒杀商品页成功");
-//    }
+    @RequestMapping("/product/list")
+    public Object getAllSecKill(){
+        List<Seckill> allSecKill = secKillService.getAllSecKill();
+        return CommonResponse.buildRespose4Success(allSecKill,"获得秒杀商品页成功");
+    }
 
 //    @RequestMapping("/curenttime")
 //    public Object getSystemDate(){
