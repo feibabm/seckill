@@ -1,0 +1,1 @@
+INSERT INTO `seckill`.`seckill` (`seckill_id`, `name`, `number`, `start_time`, `end_time`, `create_time`) VALUES ('1000', 'iphone8 1000', '8000', '2017-09-18 15:24:23', '2017-09-18 15:25:00', '2017-09-12 09:12:05');
